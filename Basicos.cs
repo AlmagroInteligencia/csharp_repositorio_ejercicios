@@ -6,7 +6,8 @@ using System.Diagnostics;
 
 namespace ejercicios
 {
-    class Basicos {
+    class Basicos 
+    {
         
         static int ingresarNumero() 
         {

@@ -2,15 +2,25 @@
 
 namespace ejercicios
 {
-    class PuntoDeEntrada {
-        static void Main(string[] args) {
-            Console.WriteLine("Por aca empieza");
+    class PuntoDeEntrada 
+    {
+        static void Main(string[] args) 
+        {
+            Console.WriteLine("******************************************");
+            Console.WriteLine("************ Por acá empieza *************");
+            Console.WriteLine("******************************************");
 
             // Ejecuta el "main" de Basicos (como solo puede haber un metodo main, lo rellame "Pepito")
             //Basicos.Pepito();
 
             // Ejecuta el archivo de colas
-            Colas.Pepito();
+            //Colas.Pepito();
+
+            // Ejecuta el archivo de pilas
+            //Pilas.Pepito();
+
+            // Ejecuta el archivo de listas
+            Listas.Pepito();
         }
     }
 }
