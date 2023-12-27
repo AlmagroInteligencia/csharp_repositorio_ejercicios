@@ -20,7 +20,13 @@ namespace ejercicios
             //Pilas.Pepito();
 
             // Ejecuta el archivo de listas
-            Listas.Pepito();
+            //Listas.Pepito();
+
+            // Ejecuta el archivo de ciclos anidados
+            //Ciclos.Pepito();
+
+            // Ejecuta el archivo de funciones recursivas
+            Recursivas.Pepito();
         }
     }
 }
