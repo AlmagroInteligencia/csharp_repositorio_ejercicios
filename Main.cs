@@ -26,7 +26,13 @@ namespace ejercicios
             //Ciclos.Pepito();
 
             // Ejecuta el archivo de funciones recursivas
-            Recursivas.Pepito();
+            //Recursivas.Pepito();
+
+            // Ejecuta el archivo de manipulacion de archivos
+            //Archivos.Pepito();
+
+            // Ejecuta el archivo de encriptados
+            Encriptados.Pepito();
         }
     }
 }
