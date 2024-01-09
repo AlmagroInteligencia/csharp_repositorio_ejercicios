@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 
 namespace ejercicios
 {
@@ -65,6 +66,24 @@ namespace ejercicios
             lista.ForEach(item => Console.WriteLine(item));
             Console.WriteLine("****************************************");
 
+            // Probando distintas formas de busqueda
+            Console.WriteLine("****************************************");
+
+            Persona persona01 = new Persona();
+            persona01.Nombre = "Eliseo";
+
+            Persona persona02 = new Persona();
+            persona02.Nombre = "Eliseo";
+
+            List<Persona> personas = new List<Persona>();
+
+            personas.Add(persona01);
+
+            Console.WriteLine(personas.Contains(persona01));
+            Console.WriteLine(personas.Contains(persona02));
+
+            Console.WriteLine(personas.Any(a => a.Nombre == persona01.Nombre));
+            Console.WriteLine(personas.Any(a => a.Nombre == persona02.Nombre));
         }
     }
 }

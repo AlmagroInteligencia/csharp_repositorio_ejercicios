@@ -32,7 +32,13 @@ namespace ejercicios
             //Archivos.Pepito();
 
             // Ejecuta el archivo de encriptados
-            Encriptados.Pepito();
+            //Encriptados.Pepito();
+
+            // Ejecuta el archivo de APIs
+            //Apis.Pepito();
+
+            // Ejecuta el archivo de Funciones Lambda
+            FuncLambda.Pepito();
         }
     }
 }
